@@ -14,8 +14,8 @@
   <components>
     <diylc.misc.Label>
       <name>LAB10</name>
-      <point x="1.765" y="1.605"/>
-      <text>Others:&lt;br&gt;LMC555 TH&lt;br&gt;1N4148 TH&lt;br&gt;2x JST Header</text>
+      <point x="1.665" y="1.655"/>
+      <text>Others:&lt;br&gt;11x7 Veroboard&lt;br&gt;LMC555 TH&lt;br&gt;1N4148 TH&lt;br&gt;2x JST Header</text>
       <font name="DejaVu Sans Mono Bold" size="17" style="1"/>
       <color hex="000000"/>
       <horizontalAlignment>LEFT</horizontalAlignment>
@@ -553,7 +553,7 @@
     </diylc.connectivity.Jumper>
     <diylc.misc.Label>
       <name>LAB8</name>
-      <point x="1.1" y="1.655"/>
+      <point x="1.0" y="1.655"/>
       <text>Capacitors:&lt;br&gt;470 pF SMD&lt;br&gt;100 nF SMD&lt;br&gt;1 uF TH&lt;br&gt;10 nF TH</text>
       <font name="DejaVu Sans Mono Bold" size="17" style="1"/>
       <color hex="000000"/>
@@ -563,7 +563,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB9</name>
-      <point x="0.4" y="1.605"/>
+      <point x="0.3" y="1.605"/>
       <text>BOM&lt;br&gt;Resisitors:&lt;br&gt;10 k TH&lt;br&gt;50 k Pot&lt;br&gt;330 SMD&lt;br&gt;1 M SMD</text>
       <font name="DejaVu Sans Mono Bold" size="17" style="1"/>
       <color hex="000000"/>
