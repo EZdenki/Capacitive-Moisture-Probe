@@ -471,9 +471,9 @@
       <length value="5.0" unit="mm"/>
       <width value="2.0" unit="mm"/>
       <points>
-        <point x="1.6" y="1.0"/>
-        <point x="1.6" y="1.1"/>
-        <point x="1.6" y="1.05"/>
+        <point x="1.7" y="1.0"/>
+        <point x="1.7" y="1.1"/>
+        <point x="1.7" y="1.05"/>
       </points>
       <bodyColor hex="f0e68c"/>
       <borderColor hex="a8a162"/>
@@ -495,8 +495,8 @@
       <orientation>DEFAULT</orientation>
       <size>_1206</size>
       <controlPoints>
-        <point x="1.4" y="1.0"/>
-        <point x="1.4" y="1.094488188976378"/>
+        <point x="1.66" y="1.0"/>
+        <point x="1.66" y="1.094488188976378"/>
       </controlPoints>
       <display>VALUE</display>
       <bodyColor hex="808080"/>
@@ -551,6 +551,17 @@
       <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
+    <diylc.connectivity.TraceCut>
+      <name>Cut6</name>
+      <size value="0.08" unit="in"/>
+      <fillColor hex="ffffff"/>
+      <borderColor hex="ff0000"/>
+      <boardColor hex="f8ebb3"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <orientation>VERTICAL</orientation>
+      <holeSpacing value="0.1" unit="in"/>
+      <point x="1.6" y="1.0"/>
+    </diylc.connectivity.TraceCut>
     <diylc.misc.Label>
       <name>LAB8</name>
       <point x="1.0" y="1.655"/>
@@ -585,12 +596,12 @@
   <groups>
     <set/>
     <set>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[2]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[3]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle"/>
       <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[3]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[2]"/>
     </set>
   </groups>
   <lockedLayers/>
